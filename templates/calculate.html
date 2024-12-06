@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-witdh, initial-scale=1.0">
+    <title>Calculate Carbon Footprint</title>
+</head>
+<body>
+    <h1> Calculate Your Carbon Footprint</h1>
+    <form action="/calculate" method="POST">
+
+        <label for="name"> Name:</label> 
+        <input type="text" name="name" required><br>
+
+        <label for="year">Year:</label> 
+        <input type="number" name="year"  min="1990" max="2100" required><br>
+
+        <label for="electricity">Average monthly electricity bill (euros):</label> 
+        <input type="number" name="electricity" required><br>
+
+        <label for="gas">Average monthly natural gas bill (euros):</label> 
+        <input type="number" name="gas" required><br>
+        
+        <label for="fuel">Average monthly fuel bill (euros):</label> 
+        <input type="number" name="fuel" required><br>
+
+        <label for="waste">Waste generated per month (kg):</label> 
+        <input type="number" name="waste" required><br>
+
+        <label for="recycling">Recycling percentage:</label> 
+        <input type="number" name="recycling" required><br>
+
+        <label for="kilometers">Business travel per year (km):</label> 
+        <input type="number" name="kilometers" required><br>
+
+        <label for="efficiency">Fuel efficiency (L/100km):</label> 
+        <input type="number" name="efficiency" required><br>
+
+
+        <button type="submit">Submit</button>
+
+    </form>
+     
+    <!-- Back To Home Button -->
+     <div style="margin-top: 20px;">
+        <a href="/" style="text-decoration: none; color: white; background-color: blue; padding: 10px 15px; border-radius: 5px;">Back To Home</a>
+        
+     </div>
+
+</body>    
+</html>
