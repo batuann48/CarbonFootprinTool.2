@@ -1,10 +1,12 @@
 # CARBON FOOTPRINT TOOL
+
 The ** Carbon Footprint Tool ** is a Python-based online application (web) that allows people and businesses to quanitify and evulate their carbon footprint.Users may enter data on electricity usage , 
 waste production and travel to get detailed reports ,visualize their carbon footprint and gain practical ideas for lowering ther emissions.
 
 ---
 
 ## FEATURES
+
 - **Web Interface** : An easy-to-use form for to collection electricity,waste and travel informaion(data).
 - **Pdf Report Generation**: Generates thorough Pdf reports summarizing carbon foodprint data.
 - **Data Visualization**: Generates bar charts to illustrate patterns in carbon foodprint over time .
@@ -13,6 +15,7 @@ waste production and travel to get detailed reports ,visualize their carbon foot
   
 ---
 ## DEMO
+
 Here's a brief overview of what the application provides
 ---
 
