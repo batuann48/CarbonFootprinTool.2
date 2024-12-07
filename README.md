@@ -96,14 +96,23 @@ http://127.0.0.1:5000
 
 
 -**CarbonFootprinTool.2/**:
+
 -**│**:
+
 -**├── app.py              # Main application file.**:      
+
 -**├── calculations.py     # Carbon footprint calculation logic.**:    
+
 -**├── pdf_generator.py    # PDF report generation.**:
+
 -**├── report_handler.py   # Handles CSV storage.**:
+
 -**├── visualization.py    # Visualization of carbon footprint data.**:
+
 -**├── requirements.txt    # Python package dependencies.**:
+
 -**├── carbon_data.csv     # Stores user data (auto-generated).**:
+
 -**├── static/             # Static files (images, generated reports).**:
 
 
